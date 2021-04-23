@@ -1,0 +1,73 @@
+body {
+ font-family: 'Comfortaa'; font-size: 1em;
+ margin: 0;
+ padding: 0;
+}
+.active {
+ color: white;
+ background-color: #C69C6D;
+ border: #C69C6D solid 1rem;
+ border-radius: 1.5rem;
+}
+.container {
+}
+.header {
+}
+.logo {
+ float: left;
+ margin-left: 1.8rem;
+ /* margin: 1rem; */
+}
+.submenu {
+ float: right;
+ margin: 1.8rem;
+}
+.submenu ul {
+ list-style-type: none;
+ /* width: 20rem; */
+ text-align: center;
+}
+.submenu ul li {
+ display: inline-table;
+ width: 5rem;
+ height: auto;
+ line-height: auto;
+}
+.submenu ul li a {
+ text-decoration: none;
+ color: #C69C6D;
+ transition: font-size 0.5s;
+}
+.body {
+}
+.body .cover img{
+ position: relative;
+ width: 100%;
+ height: 22rem;
+}
+.body .cover .shop-name p{
+ font-size: 5rem;
+ text-align: center;
+ position: absolute;
+ width: 20rem;
+ height: 7rem;
+ line-height: 7rem;
+ border: white solid 0.5rem;
+ border-radius: 1rem;
+ top: 9rem;
+ left: 28.5rem;
+ color: white;
+}
+.content {
+}
+.about {
+ margin-top: -1.5rem;
+ background-color: #edc18f;
+ color: white;
+ padding: 1.5rem 5rem ;
+}
+.about h2{ 
+} 
+.about p {
+ font-size: 1.2rem;
+}
